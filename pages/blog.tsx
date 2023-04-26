@@ -16,6 +16,9 @@ return (
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
+      <button onClick={() => setCount(0)}>
+        Reset
+      </button>
     </>
 )
 
