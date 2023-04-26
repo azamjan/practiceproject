@@ -13,9 +13,14 @@ return (
     <h1> Blog Page</h1>
     < Footer />
     <p>You clicked {count} times</p>
+        <br />
       <button onClick={() => setCount(count + 1)}>
-        Click me
+        Increment
       </button>
+      <button onClick={() => setCount(count - 1)}>
+        Decrement
+      </button>
+      <br />
       <button onClick={() => setCount(0)}>
         Reset
       </button>
