@@ -118,7 +118,9 @@ export default function Home() {
         < Footer/> 
       </h1>
       {/* <a href="/blog">Go to Blog</a> */}
+      <h1>
       <Link href="blog"> Go to Blog </Link>
+      </h1>
     </>
   )
 }
